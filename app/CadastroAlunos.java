@@ -10,9 +10,9 @@ public class CadastroAlunos {
 	}
 	
 	public static CadastroAlunos obterCadastroAlunos() {
-		if (instancia == null) {
+//		if (instancia == null) {
 			instancia = new CadastroAlunos();
-		}
+//		}
 		return instancia;
 	}
 
@@ -20,7 +20,6 @@ public class CadastroAlunos {
 		boolean resposta = false; 
 		int novaQtdeAlunos = alunos.length + 1; 
 		Aluno temp[] = new Aluno[novaQtdeAlunos]; 
-		
 		//verificar se o aluno já está cadastrado.
 		for (int i=0; i < alunos.length; i++ ) {
 			Aluno t = alunos[i]; 
@@ -41,7 +40,6 @@ public class CadastroAlunos {
 		
 		//atualizacao dos vetores
 		alunos = temp; 
-		
 		//verificacao da adicao
 		resposta = (alunos[posicaoInsercao] == a ? true : false);
 		
@@ -66,7 +64,6 @@ public class CadastroAlunos {
 
 	public Aluno[] ordenarAlunos() {
 		Aluno resposta[] = new Aluno[alunos.length];
-		
 		//copia o vetor para o vetor de resposta
 		for (int i=0; i < alunos.length; i++) {
 			resposta[i] = alunos[i]; 
