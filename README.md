@@ -11,7 +11,7 @@
 * É permitida a consulta ao catálogo de refatorações. 
 * Para cada questão, realize um _commit_ com a mensagem descrita na propria questão.
 * A prova deverá ser entregue via _pull request_ com uma mensagem no seguinte formato: **_Numero de matricula - Nome completo_**
-* Horário da prova: das 16:00 às 18:00 horas do dia 7/10/2019. Provas entregues fora desse horário não serão aceitas. 
+* Horário da prova: das 16:00 às ~~18:00~~ 19:00 horas do dia 7/10/2019. Provas entregues fora desse horário não serão aceitas. 
 
 ---
 
