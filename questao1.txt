@@ -1,0 +1,11 @@
+a) A interface pública é uma interface padrão do java onde possui apenas as assinaturas dos métodos que são utilizadas em outras classes.
+   A interface publicada é um conceito abstrato que representa uma interface disponibilizada para outros programadores.
+   As interfaces publicadas não devem ser refatoradas pois é uma interface que já é utilizada por outros programadores e pode gerar conflitos.
+
+b) A cirurgia riflle é quando é feita uma mudança em uma variante e acaba refletindo em outros pontos de outrs classes.
+   Alteração divergente é quando a mudança em uma variante reflete apenas em métodos diferentes de uma mesma classe.
+   Se não verificados esses maus-cheiros, podem afetar a concisão, manuntenabilidade e organização de um código.
+
+c) É falsa, pois nem sempre a refatoração pode melhorar o desempenho. Onde em alguns casos devido a chamadas de funções e novas instanciações pode acabar gerando um desempenho pior.
+
+d) Se feitos todos os testes, a garantia que uma refatoração deu certo é que todos os testes passem.
